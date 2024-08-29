@@ -16,7 +16,7 @@ class Quote:
     author: str
     tags: list[str]
 
-    def __str__(self):
+    def __str__(self) -> str:
         return (
             f"Author: {self.author}\n"
             f"Tags: {self.tags}\n"
